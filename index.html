@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,500&family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/icon.jpg">
+    <title>Harsh Borkar</title>
+</head>
+<body>
+    <div id = "load"></div>
+    <div id = "contents11">
+        <script>
+            function toggl() {
+                var p = document.getElementById("ppp")
+                p.classList.toggle("change",false);
+                var x = document.getElementById("navv");
+                if (x.style.display == "none") {
+                    x.style.display = "block";
+                    x.style.opacity = 1;
+                    p.classList.toggle("change",true);
+                } else {
+                    x.style.display = "none";
+                    x.style.opacity = 0;
+                    p.classList.toggle("change",false);
+                }
+                
+            }
+        </script>
+        <!--navigation
+        =======================================================-->
+        <header>
+            
+                <div class="menu_toggle" onclick="toggl()" id="ppp">
+                    <div class="bar1"> </div>
+                    <div class="bar2"> </div>
+                    <div class="bar3"> </div>
+                </div>
+                
+                
+            
+        </header>
+        <nav class="main_nav_container" id="navv">
+            <ul class= "main_nav">
+                <li><a href="#topic0" onclick="toggl()" >Home</a></li>
+                <li><a href="#topic1" onclick="toggl()"> About Me</a></li>
+                <li><a href="#topic2" onclick="toggl()"> Education</a></li>
+                <li><a href="#topic3" onclick="toggl()"> Skills</a></li>
+                <li><a href="#topic4" onclick="toggl()"> Contact me</a></li>
+            </ul>
+        </nav>
+        
+        <!--Welcome Page
+        =======================================================-->
+        <div class="welcome_page" id = "topic0">
+            <div class="welcome_content">
+                <div class="hi">
+                    Hello, World!
+                </div>
+                <div class="intro_text">
+                    I'm Harsh Borkar.
+                </div>
+                <div class="intro_current">
+                    <ul>
+                        <li>2nd Year Undergraduate</li>
+                        <li>Electrical Engineering</li>
+                        <li>IIT Bombay</li>
+                    </ul>
+                </div>
+                
+                <div class="next_section">
+                    <a href="#topic1">About Me</a>
+                </div>
+                
+                
+                <div class = "social_links">
+                    <div class="site">
+                        <a href="https://www.facebook.com/profile.php?id=100012591076335" target="_blank"><img src="./images/facebook.png" alt=""></a>
+                    </div>
+                    <div class="site">
+                        <a href="https://www.instagram.com/_havibo17_/" target="_blank"><img src="./images/instagram.png" alt=""></a>
+                    </div>
+                    <div class="site">
+                        <a href="https://github.com/HaViBo17" target="_blank"><img src="./images/github.png" alt=""></a>
+                    </div>
+                    <div class="site">
+                        <a href="https://www.linkedin.com/in/harsh-borkar-711262176/" target="_blank"><img src="./images/linkedin.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    
+        <!--About me
+        =======================================================-->
+        <div class = "about_me" id = "topic1">
+            <span class = "abtme" >About</span><br>
+            <span class = "abtme2">Hello, there !</span><br>
+            <img src="images/face.jpg" alt="my pic">
+            <div class="intro">
+                I'm Harsh Vinayak Borkar, a 2nd year Undergraduate in Electrical Engineering Department, IIT Bombay. I hail from Mumbai, Maharashtra. 
+                I am more of an introvert personality who likes to observe things.
+            </div>
+            <span class="abtme2">My Bio</span><br>
+            <div class="bio">
+                <div class = "sub_head">
+                    Full Name
+                </div><br>
+                <div class = "sub_info">
+                    Harsh Vinayak Borkar
+                </div><br>
+                <div class = "sub_head">
+                    Date of Birth
+                </div><br>
+                <div class = "sub_info">
+                    1st Jan 2000                        
+                </div><br>
+                <div class = "sub_head">
+                    Email:
+                </div><br>
+                <div class = "sub_info">
+                    harshborkar17[at]gmail.com
+                </div>
+            </div>
+    
+        </div>
+        <br>
+        <br>
+        
+        
+        <br>
+        <!--Education
+        =======================================================-->
+        <div class = "education_wrapper" id="topic2">
+            <div class="education">
+                <div class = "edu">Education</div><br>
+                <div class="topic">
+                    <div class="icon">
+                        <img src="./images/school.png" alt="">
+                    </div>
+                    <div class = "content">
+                        <div class="sub_head">
+                            Bachelor Degree of Technology
+                        </div>
+                        <div class="duration">
+                            July 2019 - Present
+                        </div>
+                        
+                        <div class = "place">
+                            IIT Bombay
+                        </div>
+                        <div class= "info">
+                            Studying in the Electrical Engineering Department. I will be graduating in 2020 (expected).
+                        </div>
+                    </div>
+        
+                </div>
+                <div class="topic">
+                    <div class="icon">
+                        <img src="./images/school.png" alt="">
+                    </div>
+                    <div class = "content">
+                        <div class="sub_head">
+                            Senior Secondary Education
+                        </div>
+                        <div class="duration">
+                            June 2017 - March 2019
+                        </div>
+                        <div class = "place">
+                            Pace Junior Science College (Borivali)
+                        </div>
+                        <div class= "info">
+                            Completed my senior Secondary education (Science) here with XX%.
+                        </div>
+                    </div>
+        
+                </div>
+                <div class="topic">
+                    <div class="icon">
+                        <img src="./images/school.png" alt="">
+                    </div>
+                    <div class = "content">
+                        <div class="sub_head">
+                            Primary and Secondary Education
+                        </div>
+                        <div class="duration">
+                            June 2007 - March 2017
+                        </div>
+                        <div class = "place">
+                            SVIS Gorai
+                        </div>
+                        <div class= "info">
+                            Completed my SSC board curriculum with XX% 
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+    
+        <!--Skills
+        =======================================================-->
+        <div class = "skills_wrapper" id="topic3">
+            <div class = "skill_head">SKILLS</div>
+            <div class="abtme2">What can I do for you ?</div>
+            <div class="skills">
+                <div class="topic">
+                    <div class = "topic_img">
+                        <img src="./images/cpp.png" alt="cpp_logo">
+                    </div>
+                    <div class = "topic_content">
+                        CPP 
+                        <br>
+                        <span class="arrow">---&gt</span>
+                    </div>
+                </div>
+                <div class="topic">
+                    <div class = "topic_img">
+                        <img src="./images/python.png" alt="python_logo">
+                    </div>
+                    <div class = "topic_content">
+                        Python
+                    </div>
+                </div>
+                <div class="topic">
+                    <div class = "topic_img">
+                        <img src="./images/algo.png" alt="algo_logo">
+                    </div>
+                    <div class = "topic_content">
+                        Algorithms
+                    </div>
+                </div>
+                <div class="topic">
+                    <div class = "topic_img">
+                        <img src="./images/process.png" alt="ds_logo">
+                    </div>
+                    <div class = "topic_content">
+                        Data Structures
+                    </div>
+                </div>
+                <div class="topic">
+                    <div class = "topic_img">
+                        <img src="./images/machine-learning.png" alt="ml_logo">
+                    </div>
+                    <div class = "topic_content">
+                        Machine Learning
+                    </div>
+                </div>
+                <div class="topic">
+                    <div class = "topic_img">
+                        <img src="./images/deep-learning.png" alt="dl_logo">
+                    </div>
+                    <div class = "topic_content">
+                        Deep Learning
+                    </div>
+                </div>
+                <div class="topic">
+                    <div class = "topic_img">
+                        <img src="./images/html5.png" alt="html_logo">
+                    </div>
+                    <div class = "topic_content">
+                        HTML5
+                    </div>
+                </div>
+                <div class="topic">
+                    <div class = "topic_img">
+                        <img src="./images/css.png" alt="css_logo">
+                    </div>
+                    <div class = "topic_content">
+                        CSS3
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="overview_wrapper" id="overview">
+            <div class = "overview">
+                <div class = "topic">
+                    <div class = "image">
+                        <img src="./images/project.png" alt="Project">
+                    </div>
+                    <div class = "count" id = "magic1">
+                        2
+                    </div>
+                    <div class = "describe">
+                        Projects Completed
+                    </div>
+                </div>
+            </div>
+            <div class = "overview">
+                <div class = "topic">
+                    <div class = "image">
+                        <img src="./images/skill.png" alt="Skills">
+                    </div>
+                    <div class = "count" id="magic2">
+                        8
+                    </div>
+                    <div class = "describe">
+                        Skills
+                    </div>
+                </div>
+            </div>
+            <div class = "overview">
+                <div class = "topic">
+                    <div class = "image">
+                        <img src="./images/course.png" alt="Courses">
+                    </div>
+                    <div class = "count" id = "magic3">
+                        15
+                    </div>
+                    <div class = "describe">
+                        Courses Completed
+                    </div>
+                </div>
+            </div>
+            <div class = "overview">
+                <div class = "topic">
+                    <div class = "image">
+                        <img src="./images/semester.png" alt="Semester">
+                    </div>
+                    <div class = "count" id="magic4">
+                        2
+                    </div>
+                    <div class = "describe">
+                        Semesters Completed
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!--Contact
+        =======================================================-->
+        <div class = "contact_wrapper" id="topic4">
+            <div class="contact">
+                <div class = "contact_head"> 
+                    CONTACT
+                </div>
+                <div class="message_head">
+                    I'd <span style="color:rgb(0   ,153, 255)">&hearts;</span> To Hear From You
+                </div>
+                <div class="message">
+                    You can send me message if you want to give feedback, convey something to me, want me to contact you or for any questions.
+                </div>
+                <div class = "contact_flex">
+                    <div class = "form_wrapper">
+                        <div class = "contact_form">
+                            <form action="https://formspree.io/mlepajry" autocomplete="off" method="POST">
+                                <span class = "form_head">Feedback</span><br>
+                                <span class = "form_head_sub">Every Word Matters...</span><br>
+                                <label for="name"><span class="labels" >Name</span></label><br>
+                                <input type="text" name="name" id ="name" autocomplete="off" required><br>
+                                <label for="email"><span class="labels" >Email</span></label><br>
+                                <input type="email" name="email" id="email"required><br>
+                                <label for="message"><span class="labels" required>Message</span></label><br>
+                                <textarea name="message" id="message" rows="10" cols = "20"></textarea><br><br><br>
+                                <button type="submit" class = "submit" value="send">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                    
+          
+                    <div class="details_wrapper">
+                        <div class="details">
+                            <div class="icon">
+                                <img src="./images/pin.png" alt="">
+                            </div>
+                            <div class="head">
+                                Where to find me
+                            </div>
+                            <div class="info">
+                                Hostel - 9 <br>
+                                IIT Bombay, Powai <br>
+                                Mumbai, Maharashtra, India <br>
+                                400076
+                            </div>
+                        </div>
+                        <div class="details">
+                            <div class="icon">
+                                <img src="./images/mail.png" alt="">
+                            </div>
+                            <div class="head">
+                                Mail me at
+                            </div>
+                            <div class="info">
+                                harshborkar17[at]gmail.com <br>
+                                190070027[at]iitb.ac.in
+                            </div>
+                        </div>
+                        <div class="details">
+                            <div class="icon">
+                                <img src="./images/phone.png" alt="">
+                            </div>
+                            <div class="head">
+                                Call me at
+                            </div>
+                            <div class="info">
+                                (+91) 845 209 3293
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class = "social_links">
+            <div class="site">
+                <a href="https://www.facebook.com/profile.php?id=100012591076335" target="_blank"><img src="./images/facebook.png" alt="facebook"></a>
+            </div>
+            <div class="site">
+                <a href="https://www.instagram.com/_havibo17_/" target="_blank"><img src="./images/instagram.png" alt="insta"></a>
+            </div>
+            <div class="site">
+                <a href="https://github.com/HaViBo17" target="_blank"><img src="./images/github.png" alt="github"></a>
+            </div>
+            <div class="site">
+                <a href="https://www.linkedin.com/in/harsh-borkar-711262176/" target="_blank"><img src="./images/linkedin.png" alt="linkedin"></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.onreadystatechange = function () {
+            var state = document.readyState
+            if (state == 'interactive') {
+                document.getElementById('contents').style.visibility="hidden";
+            } else if (state == 'complete') {
+                setTimeout(function(){
+                    document.getElementById('interactive');
+                    document.getElementById('load').style.visibility="hidden";
+                    document.getElementById('contents11').style.visibility="visible";
+                },1000);
+            }
+        }
+        function getPosition(el) {
+        var xPos = 0;
+        var yPos = 0;
+        
+        while (el) {
+            if (el.tagName == "BODY") {
+            // deal with browser quirks with body/window/document and page scroll
+            var xScroll = el.scrollLeft || document.documentElement.scrollLeft;
+            var yScroll = el.scrollTop || document.documentElement.scrollTop;
+        
+            xPos += (el.offsetLeft - xScroll + el.clientLeft);
+            yPos += (el.offsetTop - yScroll + el.clientTop);
+            } else {
+            // for all other non-BODY elements
+            xPos += (el.offsetLeft - el.scrollLeft + el.clientLeft);
+            yPos += (el.offsetTop - el.scrollTop + el.clientTop);
+            }
+        
+            el = el.offsetParent;
+        }
+        return yPos;
+        }
+        var a = true;
+        window.addEventListener('scroll', my);
+        function m3(x){
+            
+            document.getElementById("magic3").innerHTML = x;
+            if(x < 15){
+                window.setTimeout(function(){m3(x+1);},200);
+            }
+        }
+        function m2(x){
+            
+            document.getElementById("magic2").innerHTML = x;
+            if(x < 8){
+                window.setTimeout(function(){m2(x+1);},375);
+            }
+        }
+        function m1(x){
+            
+            document.getElementById("magic1").innerHTML = x;
+            if(x < 2){
+                window.setTimeout(function(){m1(x+1);},1500);
+            }
+        }
+        function m4(x){
+            
+            document.getElementById("magic4").innerHTML = x;
+            if(x < 2){
+                window.setTimeout(function(){m4(x+1);},1500);
+            }
+        }
+        function magic_count(){
+            
+            let n21 = document.getElementById("magic1");
+            let n8 = document.getElementById("magic2");
+            let n15 = document.getElementById("magic3");
+            let n22 = document.getElementById("magic4");
+            var duration = 10;
+            var time = 0;
+            
+            
+           
+                window.setTimeout(function (){m1(time);m2(time);m3(time);m4(time);},200);
+            
+                
+                
+                
+            
+        }
+        function my(){
+            
+            if (a == true) {
+                let b = document.getElementById("overview");
+                let bodyRect = document.body.getBoundingClientRect();
+                let elemRect = b.getBoundingClientRect();
+                let offset   = elemRect.top - bodyRect.top;
+               
+                let c = getPosition(b);
+                if(offset +200<= window.pageYOffset + window.innerHeight){
+                    a = false;
+                    
+                    magic_count();
+                }
+
+            }
+        }
+
+    </script>
+    
+</body>
+</html>
